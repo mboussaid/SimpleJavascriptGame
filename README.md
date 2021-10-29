@@ -8,5 +8,6 @@
 - avoid the red box 
 
 > Demo 
+<img src="demo.png" />
 
-[Play Demo]()
+[Play Demo](https://mboussaid.github.io/SimpleJavascriptGame/)
