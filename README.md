@@ -1,6 +1,6 @@
 # Simple Javascript Game
  this is a simple game made only with javascript 
-
+<img src="demo.png" />
 > How to play :
 
 - use arrow keys to move the blue box 
@@ -8,6 +8,6 @@
 - avoid the red box 
 
 > Demo 
-<img src="demo.png" />
+
 
 [Play Demo](https://mboussaid.github.io/SimpleJavascriptGame/)
