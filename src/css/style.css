@@ -1,0 +1,96 @@
+@font-face{
+    font-family: 'cairo';
+    src: url(./Cairo.woff2);
+}
+body{
+    font-family: 'cairo';
+    display: grid;
+    place-content: center;
+    background-color: #121212;
+    color:#fff;
+    overflow: hidden;
+}
+.score__{
+    position: relative;
+    width: max-content;
+    
+}
+.score{
+    transition: color 0.4s ease 0s;
+}
+.score__container{
+    display: inline-block;
+    position: relative;
+}
+.notif{
+    position: absolute;
+   padding: 0;
+   margin: 0 ;
+    font-size: 200px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
+    color: orangered;  
+    /* display: none;  */
+    
+}
+.notif.show{
+    display: block;
+}
+*{
+    outline: none !important;
+}
+.game-container{
+    display: flex;
+    flex-direction: column;
+}
+.game-container-row{
+    display: flex;
+}
+.current-box{
+    background-color: #673ab7 !important;
+    
+}
+.reward-box{
+    /* background-color: aqua !important; */
+    border:1px solid yellow !important;
+ 
+}
+.bad-reward-box{
+    /* background-color: #9e9e9e !important; */
+    border:1px solid orangered !important;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border:1px solid transparent ;
+    margin: 15px;
+    transition: background-color 0.3s linear 0s;
+    display: grid;
+    place-content: center;
+}
+.text-center{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.play-again-button{
+    display: block;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+    color:#fff;
+    border:none;
+    background-color: #673ab7;
+}
+.light{
+    opacity: 0.5;
+    text-transform: lowercase;
+}
+.instructions{
+    display: flex;
+    flex-direction: column;
+}
